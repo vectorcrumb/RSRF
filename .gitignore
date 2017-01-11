@@ -51,3 +51,6 @@ local.properties
 .recommenders/
 
 # gitignore file from the official github gitignore file templates at https://github.com/github/gitignore
+
+build/
+dist/

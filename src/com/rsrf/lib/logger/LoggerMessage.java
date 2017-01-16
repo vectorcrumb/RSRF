@@ -1,4 +1,4 @@
-package com.rsrf.lib.debug;
+package com.rsrf.lib.logger;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

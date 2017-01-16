@@ -1,11 +1,11 @@
-package com.rsrf.lib.debug;
+package com.rsrf.lib.logger;
 
 import java.util.Comparator;
 import java.util.NoSuchElementException;
 import java.util.Queue;
 import java.util.concurrent.PriorityBlockingQueue;
 
-import com.rsrf.lib.debug.LoggerMessage.Priority;
+import com.rsrf.lib.logger.LoggerMessage.Priority;
 import com.rsrf.lib.util.SimpleConstants;
 
 public class Logger {

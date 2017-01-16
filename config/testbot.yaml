@@ -1,0 +1,24 @@
+# Robot Module
+robot:
+  include: 
+    - subsystems
+    - logging
+  pindefs:
+    PWM0: talon
+    PWM1: talon
+  controls:
+    USB0: joystick
+    USB1: joystick
+# Subsystems Module
+subsystems:
+  chassis:
+    type: tank-drive-2
+    config:
+      motor-left: PWM0
+      motor-right: PWM1
+      control: tank
+    log:
+      refresh: 100ms
+      values:
+        - motor-left
+        - motor-right
